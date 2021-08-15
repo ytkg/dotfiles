@@ -1,7 +1,8 @@
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/core"
 brew "git"
-brew "tmux"
-brew "rbenv"
 brew "ruby-build"
-
+brew "rbenv"
+brew "tmux"
+brew "heroku/brew/heroku"
