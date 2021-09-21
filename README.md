@@ -3,10 +3,10 @@
 ## HomeBrew
 ### Install
 ```bash
-$ brew bundle
+$ brew bundle --global
 ```
 
 ### Dump
 ```bash
-$ brew bundle dump # --force
+$ brew bundle dump --global # --force
 ```

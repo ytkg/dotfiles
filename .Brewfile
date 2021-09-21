@@ -1,8 +1,13 @@
 tap "heroku/brew"
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/core"
+brew "gh"
 brew "git"
+brew "neovim"
 brew "ruby-build"
 brew "rbenv"
 brew "tmux"
+brew "watch"
 brew "heroku/brew/heroku"
+cask "slack", args: { appdir: "/Applications" }
