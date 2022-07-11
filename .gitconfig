@@ -1,0 +1,9 @@
+[user]
+	name = Yoshiki Takagi
+	email = yoshiki.tkg@gmail.com
+[init]
+	defaultBranch = main
+[ghq]
+	root = ~/Workspace
+[url "git@github.com:"]
+  insteadOf = "https://github.com/"
