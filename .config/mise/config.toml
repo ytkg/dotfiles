@@ -1,5 +1,7 @@
 [tools]
 gh = "latest"
 ghq = "latest"
+jq = "latest"
 node = "latest"
 peco = "latest"
+ripgrep = "latest"
