@@ -1,3 +1,4 @@
 [tools]
 gh = "latest"
 ghq = "latest"
+peco = "latest"
