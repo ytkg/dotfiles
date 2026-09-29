@@ -10,3 +10,8 @@ function peco-src() {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/ytkg/.docker/completions $fpath)
+autoload -Uz compinit
+(( ${+_comps[docker]} )) || compinit
+# End of Docker CLI completions
